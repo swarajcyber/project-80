@@ -8,8 +8,8 @@ function submit()
     console.log(names_of_people);
     var lenght_of_name = names_of_people.length;
     console.log(lenght_of_name);
-	document.getElementById("display_name").innerHTML=names_of_people.toString();
 	names_of_people.push(GuestName)
+	document.getElementById("display_name").innerHTML=names_of_people.toString();
    }
 
 
